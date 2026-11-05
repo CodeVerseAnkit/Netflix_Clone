@@ -1,4 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url("Assets/bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+
+  height: 80vh;
+  position: relative;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
