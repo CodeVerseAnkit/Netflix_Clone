@@ -6,7 +6,8 @@
 .main {
   background-image: url("Assets/bg.jpg");
   background-position: center center;
-  background-size: max(1200px, 100vw);
+/*  background-size: max(1200px, 100vw);*/
+  background-size:cover;
   background-repeat: no-repeat;
 
   height: 80vh;
@@ -21,9 +22,22 @@
   background-color: black;
 }
 nav {
-  max-width: 80vw;
+  
+ /* max-width: 60vw;*/
+  max-width: 70vw;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-content: center;
+  height: 62px;
+}
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
 }
