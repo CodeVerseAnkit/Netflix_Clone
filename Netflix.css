@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  background-color:black;
+}
 .main {
   background-image: url("Assets/bg.jpg");
   background-position: center center;
@@ -13,11 +16,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 .main .box {
-  height: 80vh;
+  height: 7
+    text-align:center;0vh;
   width: 100%;
   opacity: 0.44;
   position: absolute;
@@ -53,16 +57,20 @@ nav button {
   color: white;
   font-family: "Martel Sans", sans-serif;
   gap: 20px;
+  padding: 30px;
 }
-.hero :first-child {
+.hero> :nth-child(1) {
   font-weight: 900;
   font-size: 48px;
+  text-align:center;
 }
-.hero:nth-child(2) {
+.hero>:nth-child(2) {
   font-width: 400;
   font-size: 25px;
+  text-align:center;
 }
-.hero:nth-child(3) {
+.hero>:nth-child(3) {
   font-width: 400;
   font-size: 22px;
+  text-align:center;
 }
