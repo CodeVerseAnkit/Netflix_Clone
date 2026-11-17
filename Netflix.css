@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+ /* box-sizing: border-box;*/
   font-family: "Poppins", sans-serif;
 }
 body {
@@ -12,8 +12,8 @@ body {
 .main {
   background-image: url("Assets/bg.jpg");
   background-position: center center;
-  /*  background-size: max(1200px, 100vw);*/
-  background-size: cover;
+  background-size: max(1200px, 100vw);
+  /*  background-size: cover;*/
   background-repeat: no-repeat;
 
   height: 70vh;
@@ -29,8 +29,8 @@ body {
   background-color: black;
 }
 nav {
-  /* max-width: 60vw;*/
-  max-width: 70vw;
+   max-width: 60vw;
+ /* max-width: 70vw;*/
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -48,7 +48,7 @@ nav button {
   z-index: 10;
 }
 .hero {
-  height: 100%;
+  height: calc(100%-62px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ nav button {
   padding: 0 30px;
 }
 .hero > :nth-child(1) {
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 48px;
   text-align: center;
 }
@@ -71,11 +71,11 @@ nav button {
 }
 .hero > :nth-child(3) {
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
 }
-.seperation{
-  height: 11px;
-  background-color: grey;
-
+.seperation {
+  height: 7px;
+  background-color: rgb(46,44,44);
+/*  position: relative;&*/
 }
