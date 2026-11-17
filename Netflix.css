@@ -23,7 +23,7 @@ body {
   height: 70vh;
 
   width: 100%;
-  opacity: 0.44;
+  opacity: 0.69;
   position: absolute;
   top: 0;
   background-color: black;
@@ -56,8 +56,8 @@ nav button {
   position: relative;
   color: white;
   font-family: "Martel Sans", sans-serif;
-  gap: 20px;
-  padding: 30px;
+  gap: 23px;
+  padding: 0 30px;
 }
 .hero > :nth-child(1) {
   font-weight: 900;
@@ -73,4 +73,9 @@ nav button {
   font-weight: 400;
   font-size: 22px;
   text-align: center;
+}
+.seperation{
+  height: 11px;
+  background-color: grey;
+
 }
